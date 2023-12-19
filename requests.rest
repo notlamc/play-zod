@@ -1,0 +1,23 @@
+@BASE_URL=http://localhost:3000
+
+### GET GREETING
+POST {{BASE_URL}}/greeting
+Content-Type: application/json
+
+{
+    "name" : "John",
+    "emailAddress": "john@john.com",
+    "gender": "Male",
+    "coder": true
+}
+
+### GET GREETING
+POST {{BASE_URL}}/greeting
+Content-Type: application/json
+
+{
+    "name" : "Jane",
+    "emailAddress": "jane@jane.com",
+    "gender": "Female",
+    "coder": false
+}
